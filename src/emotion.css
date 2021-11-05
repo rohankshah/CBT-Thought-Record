@@ -1,0 +1,13 @@
+.emotionBtn {
+    margin: 0.2em 0.4em;
+    border: none;
+    background-color: rgb(236, 240, 241);
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.emotionBtnClick {
+    background-color: rgb(44, 62, 80);
+    color: rgb(236, 240, 241);
+    font-size: 0.9em;
+}
