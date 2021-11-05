@@ -37,6 +37,7 @@ function addEmotion(ev) {
         emotionAnswer.push(emotionName);
     }
 }
+
 function savePdf() {
     let a1 = document.getElementsByClassName("a1")[0];
     let ans1 = a1.value;   
@@ -55,6 +56,15 @@ ${ea}
                     
 ${q3}
 ${ans2}`;
-    console.log(finalAns);
+
+    let today = new Date().toLocaleDateString();
+
+    const doc = new jsPDF();
+    doc.text(finalAns, 10, 10);
+    doc.save(`${today}.pdf`);
+
+    location.reload();
 }
+
+
 

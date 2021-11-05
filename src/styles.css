@@ -1,8 +1,40 @@
 body {
-    background-color: lightblue;
+    background-color: #7798AB;
+    text-align: center;
+    padding: 0 5em;
+    height: 95vh;
+}
+
+.heading {
+    height: 10%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
 }
 
 textarea {
     border-radius: 8px;
     resize: none;
+    width: 100%;
+}
+
+.sub {
+    background-color: #D62828;
+    padding: 0.5em 1em;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #D62828;
+}
+
+p {
+    font-size: 1.2rem;
 }
